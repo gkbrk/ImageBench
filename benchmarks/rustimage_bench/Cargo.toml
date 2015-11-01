@@ -1,0 +1,15 @@
+[package]
+name = "rustimage_bench"
+version = "0.1.0"
+authors = ["Gökberk Yaltıraklı <webdosusb@gmail.com>"]
+
+[[bin]]
+name = "jpegread"
+path = "src/jpegread.rs"
+
+[[bin]]
+name = "jpeg_scanline"
+path = "src/main.rs"
+
+[dependencies]
+image = "0.4.1"
